@@ -4,7 +4,7 @@ Api to get weather from Open Weather
 clone repo
 run app example = 
 ```
-node app -d "Banfield, Aires"
+node app -d "Banfield, Argentina"
 ```
 
 this return a objetc with weather in celsius, and another info.
