@@ -8,14 +8,14 @@ const getLocation = async (city) => {
 
     const response = await instance.get();
     if( response.data.Results.length === 0){
-        throw new Error('No hay resultados')
+        throw new Error(`Not have Results from ${city}`);
     }
     const data = response.data.Results[0];
-    const direccion = data.name;
+    const location = data.name;
     const lat = data.lat;
     const lng = data.lon;
     return {
-        direccion,
+        location,
         lat,
         lng
     }
