@@ -11,6 +11,7 @@ this return a objetc with weather in celsius, and another info.
 ```
 {
   temp: '32.80',
+  location: 'Banfield, Argentina',
   feels_like: 306.48,
   temp_min: 303.15,
   temp_max: 307.15,
